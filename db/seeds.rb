@@ -5,3 +5,15 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+User.create(username: "deOliveiraDiego", password: "messageMe")
+User.create(username:"ellen.valim", password: "messageMe" )
+User.create(username:"brow1998", password: "messageMe" )
+User.create(username:"deOliveiraDi", password: "messageMe" )
+User.create(username:"nick.silva", password: "messageMe" )
+
+Message.create(body: "Esse é um teste de mensagem.", user_id: User.all.sample.id)
+Message.create(body: "Esse é um teste de mensagem.", user_id: User.all.sample.id)
+Message.create(body: "Esse é um teste de mensagem.", user_id: User.all.sample.id)
+Message.create(body: "Esse é um teste de mensagem.", user_id: User.all.sample.id)
+Message.create(body: "Esse é um teste de mensagem.", user_id: User.all.sample.id)
